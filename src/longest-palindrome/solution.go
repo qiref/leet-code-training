@@ -1,7 +1,6 @@
 package longest_palindrome
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -15,7 +14,7 @@ import (
 
 // 输入：s = "cbbd"
 // 输出："bb"
-//  
+//
 
 // 提示：
 
