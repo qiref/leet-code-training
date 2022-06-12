@@ -1,4 +1,4 @@
-package longest_palindrome
+package zigzagconversion
 
 import (
 	"fmt"
@@ -7,6 +7,6 @@ import (
 
 func TestConvert(t *testing.T) {
 	fmt.Println("aaaaaaaaaa")
-	s := LongestPalindrome("1234")
+	s := convert("sdfasdf", 1)
 	fmt.Println(s)
 }

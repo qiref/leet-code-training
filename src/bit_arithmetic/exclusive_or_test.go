@@ -1,4 +1,4 @@
-package bit_arithmetic
+package bitarithmetic
 
 import (
 	"testing"

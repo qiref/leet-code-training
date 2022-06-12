@@ -1,4 +1,4 @@
-package bit_arithmetic
+package bitarithmetic
 
 //一个数组中，只有一种数出现奇数次，另外的数出现偶数次，求出现奇数次的数？
 //（要求时间复杂度为O(n)，空间复杂度为 O(1)）

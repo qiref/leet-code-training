@@ -1,4 +1,4 @@
-package longest_palindrome
+package longestpalindrome
 
 import (
 	"strings"
@@ -26,28 +26,28 @@ import (
 // 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 func LongestPalindrome(s string) string {
 
-	arr := strings.Split(s,"")
+	arr := strings.Split(s, "")
 
 	var palindrome string
 	for i := 0; i < len(arr); i++ {
 		// 判断回文字符串
-		if i==0 {
+		if i == 0 {
 			palindrome = arr[i]
 		}
-		if i==1 && arr[0]==arr[1] {
-			palindrome = arr[0]+arr[1]
+		if i == 1 && arr[0] == arr[1] {
+			palindrome = arr[0] + arr[1]
 		}
-		
+
 	}
 	l := len(arr)
 	if len(arr)%2 == 0 {
 		// 偶数情况
 		for i := 0; i < len(arr); i++ {
-			if arr[i]==arr[l-1]{
-				
+			if arr[i] == arr[l-1] {
+
 			}
 		}
-	}else {
+	} else {
 		// 奇数情况
 	}
 	return palindrome
