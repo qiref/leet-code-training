@@ -4,6 +4,7 @@ func getMax(arr []int) int {
 	return process(arr, 0, len(arr)-1)
 }
 
+// 递归求最大值
 func process(arr []int, l int, r int) int {
 	if l == r {
 		return arr[l]
